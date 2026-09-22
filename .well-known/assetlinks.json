@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ssunchipdesign.golfcalc",
+      "sha256_cert_fingerprints": [
+        "92:54:7A:66:C2:72:EF:B6:D8:13:49:6C:AC:9D:B9:9F:EF:2A:FE:F4:1A:88:62:C2:DB:7F:57:64:F5:ED:B1:FF"
+      ]
+    }
+  }
+]
