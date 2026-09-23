@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ssunchip design</title>
+<style>
+  :root{ --bg:#E8E2D4; --surface:#F7F3EA; --ink:#121A16; --muted:#6F7671; --accent:#0E3A2B; --gold:#A5824A; --line:#D9D1BF; }
+  @media (prefers-color-scheme: dark){ :root{ --bg:#0B0F0D; --surface:#131916; --ink:#ECE7DC; --muted:#8C958F; --accent:#DCC08E; --gold:#D2B57E; --line:#262E2A; } }
+  *{ box-sizing:border-box; }
+  body{ margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px;
+    background:var(--bg); color:var(--ink); font-family:'Noto Sans KR', system-ui, sans-serif; }
+  .card{ width:100%; max-width:420px; background:var(--surface); border:1px solid var(--line); border-radius:4px; padding:28px 24px; }
+  .tag{ font-size:11px; letter-spacing:3px; color:var(--gold); font-weight:700; }
+  h1{ font-size:26px; margin:8px 0 6px; color:var(--accent); letter-spacing:-.5px; }
+  p{ font-size:14px; color:var(--muted); line-height:1.6; margin:0 0 20px; }
+  a.btn{ display:block; text-align:center; padding:13px; background:var(--accent); color:var(--surface);
+    text-decoration:none; font-weight:700; border-radius:4px; }
+  @media (prefers-color-scheme: dark){ a.btn{ color:#101512; } }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="tag">SSUNCHIP DESIGN</div>
+    <h1>내기골프계산기</h1>
+    <p>골프 내기(스트로크 · 팀전)를 홀마다 자동으로 정산해주는 앱입니다.</p>
+    <a class="btn" href="/golfcalc/">앱 열기 →</a>
+  </div>
+</body>
+</html>
