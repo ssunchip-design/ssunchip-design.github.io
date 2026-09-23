@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.ssunchipdesign.golfcalc",
       "sha256_cert_fingerprints": [
-        "92:54:7A:66:C2:72:EF:B6:D8:13:49:6C:AC:9D:B9:9F:EF:2A:FE:F4:1A:88:62:C2:DB:7F:57:64:F5:ED:B1:FF"
+        "92:54:7A:66:C2:72:EF:B6:D8:13:49:6C:AC:9D:B9:9F:EF:2A:FE:F4:1A:88:62:C2:DB:7F:57:64:F5:ED:B1:FF",
+        "88:BE:60:1D:56:0E:99:3F:8C:13:7E:FF:8A:E1:DA:0A:10:97:A9:2D:5C:95:F7:86:25:22:8A:D3:01:87:D9:BA"
       ]
     }
   }
